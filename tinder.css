@@ -1,0 +1,188 @@
+p {
+  color: #8f8f8f;
+}
+
+/* Navbar section */
+
+.navbar{
+margin: 0 0 80px -17px;
+}
+
+.navbar-brand h1 {
+font-family: 'Lilita One';
+font-size: 2.5rem;
+}
+
+
+.nav-link {
+ font-size: 1.2rem;
+}
+
+.nav-item {
+padding: 0 10px 0 ;	
+}
+
+
+/* Title section */
+
+#title .container-fluid {
+background-color: #ff4c68;
+color: white;
+padding: 5% 12% ;
+}
+
+#title h2 {
+font-size: 4.5rem;
+font-family: 'Lilita One';
+letter-spacing: 5;
+line-height: 1.5;
+padding-bottom: 30px;
+}
+
+#title img {
+transform:rotate(30deg);
+margin-left: 10%;
+
+}
+
+.download {
+margin: 10px 10px; 
+}
+
+
+/* Features section */
+
+#features .container-fluid {
+padding: 3% 8%;
+}
+
+.feature-title {
+padding: 20px 0 5px 0;
+font-weight: bold;
+}
+
+#features .icon {
+color: #ef8172;
+}
+ 
+#features .icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Review section */
+
+#reviews {
+background-color: #ef8172;
+padding: 3% 8%;
+}
+ 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+}
+
+.testimonial-image {
+width: 80px;
+border-radius: 100%;
+}
+
+
+/* Price section */
+
+.card-header {
+color: #ff4c68;
+font-family: 'Montserrat', sans-serif;
+font-style: oblique;
+
+}
+
+.price-text {
+font-weight: 600;	
+}
+
+#pricing {
+padding: 3% 8%;
+}
+
+.section-heading {
+font-family: 'Lilita One';
+font-size: 4.5rem;
+color: #ff4c68;
+}
+
+/* CTA section */
+
+#cta {
+background-color: #ff4c68;
+text-align: center;
+padding: 5% 8%;
+color: white;
+}
+
+.big-heading {
+ font-family: 'Lilita One';
+ font-size: 4.5rem;
+ padding: 10% 5%;
+ line-height: 1.5;
+}
+
+#cta button {
+margin-bottom: 8%;
+}
+
+/* Footer */
+
+#footer {
+text-align: center;
+padding: 8% 8%;
+}
+
+.social-icon {
+ margin: 10px;
+}
+
+
+.social-icon:hover {
+ color: #ff4c68;
+}
+
+
+ /* Media Queries */
+
+@media (max-width: 1028px) {
+
+#pricing h2, #title h2, .big-heading {
+font-size: 2.5rem;
+}
+	
+	
+#title img {
+position: static;
+transform:rotate(0);
+padding-top: 30px;
+}
+
+#title {
+text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  }
+
+.card {
+ margin: 4% 0;
+}	
+	
+}
+
+
+
+
+
+
+/* Title Image */
